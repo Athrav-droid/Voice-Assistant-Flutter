@@ -13,9 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Athrav',
+      title: 'Voice Assistant',
       theme: ThemeData.light(useMaterial3: true).copyWith(
         scaffoldBackgroundColor: Pallete.whiteColor,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Pallete.whiteColor,
+        ),
       ),
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
