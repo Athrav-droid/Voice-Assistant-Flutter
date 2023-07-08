@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Voice Assistant',
       theme: ThemeData.light(useMaterial3: true).copyWith(
         scaffoldBackgroundColor: Pallete.whiteColor,
-        appBarTheme: AppBarTheme(
+        appBarTheme: const AppBarTheme(
           backgroundColor: Pallete.whiteColor,
         ),
       ),
